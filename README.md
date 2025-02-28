@@ -42,15 +42,7 @@ To load the dataset, use the following code:
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset(
-    "yxhong-tw/twisc",
-    data_files={
-        "raw": "raw.jsonl",
-        "train": "train.jsonl",
-        "30k_test": "30k_test.jsonl",
-        "235_test": "235_test.jsonl",
-    },
-)
+dataset = load_dataset("yxhong-tw/twisc")
 ```
 
 ## Citation
